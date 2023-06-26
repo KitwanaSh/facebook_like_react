@@ -1,4 +1,4 @@
-import TopBar from './Components/topBar/TopBar'
+import TopBar from '../../Components/topBar/TopBar'
 
 export default function Home() {
   return <TopBar />
