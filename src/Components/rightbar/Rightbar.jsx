@@ -10,9 +10,51 @@ export default function Rightbar() {
            <b>Brigitter Ena</b> and <b>4 other friends</b> have a birthday today.
           </span>
         </div>
-        <img className="rightbarAd" src="assets/ad.png" alt="" />
+        <img className="rightbarAd" src="assets/ad.jpg" alt="" />
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightbarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img src="assets/Person/3.jpg" alt="" className="rightbarProfileImg" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img src="assets/Person/3.jpg" alt="" className="rightbarProfileImg" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img src="assets/Person/3.jpg" alt="" className="rightbarProfileImg" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img src="assets/Person/3.jpg" alt="" className="rightbarProfileImg" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img src="assets/Person/3.jpg" alt="" className="rightbarProfileImg" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img src="assets/Person/3.jpg" alt="" className="rightbarProfileImg" />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
           <li className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
               <img src="assets/Person/3.jpg" alt="" className="rightbarProfileImg" />
