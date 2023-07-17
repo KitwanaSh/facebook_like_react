@@ -30,7 +30,7 @@ export const Posts = [
 	{
 		id: 1,
 		desc: "I love my life, No hate with me.",
-		photo: "assets/Post/1.jpg",
+		photo: "/assets/Post/1.jpg",
 		date: "4 mins ago",
 		userId: 1,
 		like: 43,
@@ -39,7 +39,7 @@ export const Posts = [
 	{
 		id: 2,
 		desc: "Sun shine today.",
-		photo: "assets/Post/2.jpg",
+		photo: "/assets/Post/2.jpg",
 		date: "40 mins ago",
 		userId: 2,
 		like: 3,
@@ -48,7 +48,7 @@ export const Posts = [
 	{
 		id: 3,
 		desc: "I was born in this business.",
-		photo: "assets/Post/3.jpg",
+		photo: "/assets/Post/3.jpg",
 		date: "36 mins ago",
 		userId: 3,
 		like: 70,
@@ -57,7 +57,7 @@ export const Posts = [
 	{
 		id: 4,
 		desc: "This is where all started.",
-		photo: "assets/Post/4.jpg",
+		photo: "/assets/Post/4.jpg",
 		date: "7 days ago",
 		userId: 4,
 		like: 105,
@@ -66,7 +66,7 @@ export const Posts = [
 	{
 		id: 5,
 		desc: "Let's do this by all the means",
-		photo: "assets/Post/5.jpg",
+		photo: "/assets/Post/5.jpg",
 		date: "15 mins ago",
 		userId: 5,
 		like: 18,
