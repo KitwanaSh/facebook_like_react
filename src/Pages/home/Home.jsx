@@ -3,7 +3,7 @@ import Sidebar from '../../Components/sidebar/Sidebar'
 import Rightbar from '../../Components/rightbar/Rightbar'
 import Feed from '../../Components/feed/Feed'
 
-import "./home.css"
+import "./Home.css"
 
 export default function Home() {
   return (
