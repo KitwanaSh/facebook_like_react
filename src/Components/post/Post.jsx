@@ -1,5 +1,6 @@
 import "./post.css"
 import {MoreVert} from "@material-ui/icons"
+import { users } from "../../dummyData"
 
 export default function Post({post}) {
   return (
@@ -7,8 +8,8 @@ export default function Post({post}) {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postLeft">
-            <img className="postProfileImg" src="/assets/Person/1.jpg" alt="" />
-            <span className="postUserName">{post.userName}</span>
+            <img className="postProfileImg" src={users.filter((u) => u.id === post?.userId)[0].profilePicture} alt="" />
+            <span className="postUserName">{users.filter((u) => u.id === post?.userId)[0].userName}</span>
             <span className="postDate">{post.date}</span>
           </div>
           <div className="postRight">
