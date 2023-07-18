@@ -1,7 +1,7 @@
 .profile {
 	display: flex;
 }
-profileRight {
+.profileRight {
 	flex: 9;
 }
 .profileRightBottom {
