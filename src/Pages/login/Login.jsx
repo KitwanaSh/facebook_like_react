@@ -11,7 +11,12 @@ export default function Login() {
 					</span>
 				</div>
 				<div className="loginRight">
-					<div className="loginBox"></div>
+					<div className="loginBox">
+						<input placeholder="Email" className="loginInput" />
+						<input placeholder="Password" className="loginInput" />
+						<button className="loginButton">Log In</button>
+						<span  className="loginForgot">Forgot password?</span>
+					</div>
 				</div>
 			</div>
 		</div>
